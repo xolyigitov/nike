@@ -1,0 +1,239 @@
+@import 'fonts.css';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    background: #EBEBEB;
+}
+
+.nav {
+    background: #322E41;
+}
+
+.nav__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+header ul a {
+    color: #FFF;
+    font-family: 'RR';
+    font-size: 16px;
+    line-height: 19px;
+    padding: 23px 14px;
+    display: block;
+    transition: 500ms all;
+}
+
+header ul a:hover {
+    background: white;
+    color: #D47300;
+}
+
+header {
+    height: 565px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__content {
+    background: url(../images/headerBg.jpg) no-repeat center /cover;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__content h1 {
+    color: #FFF;
+    font-family: "RB";
+    font-size: 50px;
+    line-height: 59px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.header__content p {
+    color: #FFF;
+    font-family: 'RR';
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header__content span {
+    color: #FFF;
+    font-family: 'RB';
+    font-size: 18px;
+}
+
+.main__box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -45px;
+    margin-bottom: 36px;
+}
+
+.left {
+    max-width: 540px;
+    width: 100%;
+    padding: 15px;
+    background: white;
+    border-radius: 6px;
+}
+
+.left img {
+    border-radius: 6px;
+}
+
+.left h2 {
+    color: #2C2A2A;
+    font-family: 'RB';
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.left p {
+    color: #9B9B9B;
+    font-family: 'RR';
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.right {
+    max-width: 540px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.right__item {
+    max-width: 255px;
+    width: 100%;
+    background: white;
+    border-radius: 6px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.right__item h3 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: #2C2A2A;
+    text-align: center;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: 'RB';
+    font-size: 22px;
+    line-height: 6px;
+    /* 27.273% */
+}
+
+.right__item p {
+    text-align: center;
+    color: #9B9B9B;
+    font-family: 'RR';
+    font-size: 16px;
+    line-height: 16px;
+    /* 100% */
+}
+
+.right__item-top {
+    margin-bottom: 30px;
+}
+
+footer{
+    background: #322E41;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.footer__left{
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__left input{
+    padding: 8px 0px 0px 8px;
+    color: #9B9B9B;
+font-family: 'RR';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 100% */
+border-radius: 6px;
+}
+
+.footer__left textarea{
+    padding: 8px 0px 0px 8px;
+    color: #9B9B9B;
+font-family: 'RR';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; 
+/* 100% */
+margin: 10px 0;
+height: 86px;
+border-radius: 6px;
+resize: none; /* bu xabar yozasdigan hududni razmerini  o'zgarmidigan qilib qo'yadi */
+}
+.footer__btn{
+    border-radius: 6px;
+background: #544294;
+text-align: center;
+padding: 3px 0px;
+
+}
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__right{
+    display: flex;
+}
+.footer__right ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer__right-link{
+    color: #FFF;
+font-family: 'RR';
+font-size: 16px;
+line-height: 19px;
+display: block;
+margin-bottom: 10px;
+}
+.footer__right-link:hover{
+    color: #D47300;
+
+}
+.second__list{
+    margin-right: 68px;
+    margin-left: 68px;
+}
